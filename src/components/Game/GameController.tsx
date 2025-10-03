@@ -350,17 +350,17 @@ const GameController = () => {
             </div>
           </div>
         )}
-        <div className='flex-none w-full md:w-72 lg:w-80 bg-black/70 p-4 rounded-lg shadow-lg text-xs md:text-sm lg:text-base space-y-4 mt-2 md:mt-4 lg:mt-6'>
-          <h1 className='text-lg md:text-xl lg:text-xl font-bold pixel-font glow-text-pink text-center mb-2'>
+        <div className='flex-none w-full md:w-72 lg:w-80 bg-black/70 p-4 rounded-lg shadow-lg text-xs md:text-sm lg:text-base space-y-4 mt-2 md:mt-4 lg:mt-2'>
+          <h1 className='text-lg md:text-lg lg:text-lg font-bold pixel-font glow-text-pink text-center mb-2'>
             SPACE INVADERS
           </h1>
-          <p className='text-lg md:text-xl text-accent text-center mb-2'>
+          <p className='text-lg md:text-lg text-accent text-center mb-2'>
             AI-Powered Adaptive Gameplay
           </p>
-          <p className='text-lg md:text-xl lg:text-xl font-bold pixel-font glow-text-cyan text-center mb-2'>
+          <p className='text-lg md:text-lg lg:text-xl font-bold pixel-font glow-text-cyan text-center mb-2'>
             ANDRES R. BUCHELI
           </p>
-          <p className='text-lg md:text-xl text-accent text-center mb-2'>
+          <p className='text-lg md:text-lg text-accent text-center mb-2'>
             AI Agent Developer
           </p>
           <img
@@ -368,6 +368,11 @@ const GameController = () => {
             alt='Profile or logo'
             className='mx-auto mt-2 w-24 h-auto rounded-lg'
           />
+        </div>
+         <div className='flex-none w-full md:w-72 lg:w-80 bg-black/70 p-4 rounded-lg shadow-lg text-xs md:text-sm lg:text-base space-y-4 mt-2 md:mt-4 lg:mt-1'>
+          <p className='text-lg md:text-lg glow-text-cyan text-center mb-2'>
+            Kill 15 aliens in 30 seconds to continue playing
+          </p>
         </div>
       </div>
     </div>
